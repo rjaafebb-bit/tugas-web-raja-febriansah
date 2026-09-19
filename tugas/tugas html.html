@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raja Febriansah</title>
+    <link rel="stylesheet" href="css%20tugas.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">Raja<span>.</span></div>
+    </header>
+
+    <section class="hero">
+        <div class="hero-text">
+            <div class="sub-title">Halo, Ini Saya</div>
+            <h1>Raja Febriansah</h1>
+            <p>
+                Seorang <span>Mahasiswa Sistem Informasi Universitas<br>
+                Islam Negeri Sultan Thaha Saifuddin Jambi</span>
+            </p>
+        </div>
+        <div class="hero-image">
+            <img src="foto raja.png" alt="Raja Febriansah">
+        </div>
+    </section>
+
+    <div class="materi-container">
+
+        <h2 class="materi-judul-utama">Materi Pembelajaran HTML</h2>
+
+        <!-- 1. Paragraf -->
+        <div class="materi-card">
+            <h3>1. Paragraf</h3>
+            <p>
+                Paragraf dalam HTML digunakan untuk membungkus sekumpulan teks atau kalimat menjadi satu kesatuan struktur tulisan yang rapi. Elemen paragraf diawali dengan tag <code>&lt;p&gt;</code> dan diakhiri dengan tag penutup <code>&lt;/p&gt;</code>.
+            </p>
+        </div>
+
+        <!-- 2. Heading (Sampai Heading 5 & Warna Teks Hitam) -->
+        <div class="materi-card">
+            <h3>2. Heading</h3>
+            <h1 style="color: #000000;">Heading 1</h1>
+            <h2 style="color: #000000;">Heading 2</h2>
+            <h3 style="color: #000000;">Heading 3</h3>
+            <h4 style="color: #000000;">Heading 4</h4>
+            <h5 style="color: #000000;">Heading 5</h5>
+        </div>
+
+        <!-- 3. Format Teks -->
+        <div class="materi-card">
+            <h3>3. Format Teks</h3>
+            <p><b>Teks Tebal (Bold)</b></p>
+            <p><strong>Teks Penting (Strong)</strong></p>
+            <p><i>Teks Miring (Italic)</i></p>
+            <p><em>Teks Penekanan (Emphasized)</em></p>
+            <p><u>Teks Garis Bawah (Underline)</u></p>
+            <p><mark>Teks Ditandai (Highlight)</mark></p>
+            <p><small>Teks Ukuran Kecil</small></p>
+            <p>Contoh <sup>superscript</sup></p>
+            <p>Contoh <sub>subscript</sub></p>
+            <p><del>Teks Dicoret (Strikethrough)</del></p>
+        </div>
+
+        <!-- 4. List -->
+        <div class="materi-card">
+            <h3>4. List</h3>
+            <h4>Unordered List (Simbol):</h4>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+            </ul>
+
+            <h4>Ordered List (Nomor):</h4>
+            <ol>
+                <li>Membuat Struktur Web</li>
+                <li>Mendesain Tampilan Web</li>
+                <li>Menambahkan Interaktivitas</li>
+            </ol>
+        </div>
+
+        <!-- 5. Image -->
+        <div class="materi-card">
+            <h3>5. Image</h3>
+            <p>Contoh menampilkan gambar pada halaman web:</p>
+            <img src="foto raja.png" alt="Raja Febriansah" style="max-width: 100%; border-radius: 8px;">
+        </div>
+
+        <!-- 6. Table -->
+        <div class="materi-card">
+            <h3>6. Table</h3>
+            <table class="materi-table" border="1" style="width: 100%; border-collapse: collapse;">
+                <thead>
+                    <tr style="background-color: #007bff; color: white;">
+                        <th>Data</th>
+                        <th>Keterangan</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Nama</td>
+                        <td>Raja Febriansah</td>
+                    </tr>
+                    <tr>
+                        <td>NIM</td>
+                        <td>701250053</td>
+                    </tr>
+                    <tr>
+                        <td>Program Studi</td>
+                        <td>Sistem Informasi</td>
+                    </tr>
+                    <tr>
+                        <td>Hobi</td>
+                        <td>Bermain Sepak Bola</td>
+                    </tr>
+                    <tr>
+                        <td>Status</td>
+                        <td>Mahasiswa</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- 7. Form (Variasi Baru) -->
+        <div class="materi-card">
+            <h3>7. Form</h3>
+            <form action="#">
+                <div style="margin-bottom: 12px;">
+                    <label>Nama Lengkap:</label><br>
+                    <input type="text" placeholder="Masukkan nama lengkap Anda" style="width: 100%; padding: 8px; box-sizing: border-box;">
+                </div>
+
+                <div style="margin-bottom: 12px;">
+                    <label>Alamat Email:</label><br>
+                    <input type="email" placeholder="contoh@domain.com" style="width: 100%; padding: 8px; box-sizing: border-box;">
+                </div>
+
+                <div style="margin-bottom: 12px;">
+                    <label>Kategori Masukan:</label><br>
+                    <select style="width: 100%; padding: 8px;">
+                        <option value="">-- Pilih Kategori --</option>
+                        <option value="pertanyaan">Pertanyaan Materi</option>
+                        <option value="saran">Saran & Kritik</option>
+                    </select>
+                </div>
+
+                <div style="margin-bottom: 12px;">
+                    <label>Pesan / Catatan:</label><br>
+                    <textarea placeholder="Tuliskan pesan Anda di sini..." style="width: 100%; height: 80px; padding: 8px; box-sizing: border-box;"></textarea>
+                </div>
+
+                <button type="submit" style="background-color: #007bff; color: white; border: none; padding: 10px 20px; border-radius: 6px; cursor: pointer;">Kirim Pesan</button>
+            </form>
+        </div>
+
+        <!-- 8. Link -->
+        <div class="materi-card">
+            <h3>8. Link</h3>
+            <p>Buka modul materi pembelajaran di tab baru:</p>
+            <a href="https://s.id/webdev-z2h" target="_blank" rel="noopener noreferrer" class="materi-link-btn">
+                Buka Modul Web Development Z2H &rarr;
+            </a>
+        </div>
+
+    </div>
+
+    <!-- Footer -->
+    <footer style="text-align: center; padding: 20px; color: white;">
+        <p>&copy; 2026 Raja Febriansah - Sistem Informasi</p>
+    </footer>
+
+</body>
+</html>
+
+
+
+
+
+
