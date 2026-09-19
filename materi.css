@@ -1,0 +1,74 @@
+.materi-container {
+    max-width: 900px;
+    margin: 60px auto;
+    padding: 0 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+}
+
+.materi-judul-utama {
+    font-size: 28px;
+    color: #1e293b;
+    border-bottom: 3px solid #00a8a8;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+}
+
+.materi-card {
+    background-color: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-left: 5px solid #00a8a8;
+    border-radius: 12px;
+    padding: 24px;
+    margin-bottom: 24px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -1px rgba(0, 0, 0, 0.03);
+}
+
+.materi-card h3 {
+    margin-top: 0;
+    color: #00a8a8;
+    font-size: 20px;
+}
+
+.materi-card h4 {
+    margin-bottom: 8px;
+    color: #1e293b;
+}
+
+.materi-card p, .materi-card li {
+    line-height: 1.6;
+    color: #475569;
+}
+
+.materi-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.materi-table th, .materi-table td {
+    border: 1px solid #e2e8f0;
+    padding: 10px 14px;
+    text-align: left;
+}
+
+.materi-table th {
+    background-color: #f8fafc;
+    color: #1e293b;
+}
+
+.materi-link-btn {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 18px;
+    background-color: #00a8a8;
+    color: #ffffff !important;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: 600;
+    transition: background-color 0.2s;
+}
+
+.materi-link-btn:hover {
+    background-color: #008686;
+}
